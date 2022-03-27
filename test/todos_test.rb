@@ -10,7 +10,7 @@ describe Todos do
     assert_empty Todos.data
   end
 
-  describe 'for_user' do
+  describe '#for_user' do
     before do
       params = {
         id: 1,
